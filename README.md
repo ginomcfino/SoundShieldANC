@@ -31,3 +31,5 @@ The SoundShieldANC system is a novel approach to noise reduction, integrating ha
 2. The specific placement and arrangement of microphones and speakers on the noisy surface for optimal sound-reduction performance.
 3. The use of adaptive noise cancellation algorithms, such as LMS or FDAF, to process and cancel out incoming noise in real-time.
 4. The integration of the hardware and software components in a compact and easily deployable form factor for use on various surfaces, including windows.
+
+![Diagram](./Design/UUSoundShield.png)
