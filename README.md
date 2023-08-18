@@ -32,4 +32,23 @@ The SoundShieldANC system is a novel approach to noise reduction, integrating ha
 3. The use of adaptive noise cancellation algorithms, such as LMS or FDAF, to process and cancel out incoming noise in real-time.
 4. The integration of the hardware and software components in a compact and easily deployable form factor for use on various surfaces, including windows.
 
+## Technical Considerations
+- Real-Time Control System
+    - Avoid Vibrational Stress
+        - Material Dampening (coupling to surface)
+            - Positioning & Enclosure
+            - Dissapate Vibrational Stress
+    - Noise-Filtration (ie. Adaptive Filtering)
+        - Continuous Resonance Frequency Detection & Avoidance
+            - Hardware Unit Control System
+        - High & Low Frequency Bypass Filters
+            - Remove Input Audio Anomalies & Noise Bleed
+            - Noise Source Extraction
+            - Match Destructive Interference Wavelengths
+        - Adaptive Filtering Algorithm ((FuX/N)LMS/RLS/Machine Learning)
+    - Integrated Hardware
+        - Continuous Feedback between Mic and Exciter
+        - Multi-Channel Audio Input (higher-fidelity signal)
+        - Custom Integrated Circuit with Embedded Python Code.
+
 ![Diagram](./Design/UUSoundShield.png)
